@@ -1,0 +1,10 @@
+<person>
+    <name>Tom</name>
+    <alter>28</alter>
+    <wohnort>Mödling</wohnort>
+</person>
+<person>
+    <name>Anna</name>
+    <alter>NA</alter>
+    <wohnort>Wien</wohnort>
+</person>

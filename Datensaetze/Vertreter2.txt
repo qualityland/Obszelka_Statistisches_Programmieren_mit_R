@@ -1,0 +1,38 @@
+Übersicht über 24 Staubsaugervertreter
+Stand: 31.12.2018
+
+Nummer	Nummer des Vertreters
+Gebiet	1: West; 2: Nord; 3: Ost; 4: Süd; 5: Zentrum
+Ausbildung	Ausbildung des Vertreters
+Gewinn	Gewinn in 1.000 Euro (Jahr 2018)
+Datum	Einstellungsdatum
+
+Nummer	Gebiet	Ausbildung	Gewinn	Datum
+1	Zentrum	Matura	11,4	01.04.2018
+2	Zentrum	 Matura	9,2	01.06.2018
+3	West	Matura	9,3	01.05.2018
+4	Ost	Lehre 	13,6	01.02.2018
+5	Zentrum	Matura	NA	01.11.2018
+6	Zentrum	Lehre	3.3	01.10.2018
+7	Süd	Lehre	2,1	01.10.2018
+8	Ost	Lehre	NA	01.12.2018
+9	Süd	Lehre	10,7	01.05.2018
+10	Nord	Lehre	16,7	01.04.2018
+11	West	Matura	11,8	01.07.2018
+12	Süd	Matura	7,8	01.08.2018
+13	West	Lehre	7,4	01.07.2018
+14	West	Lehre	na	01.11.2018
+15	Nord	Matura	9,4	01.01.2018
+16	Nord	Lehre	7,1	01.06.2018
+17	Süd	Matura	12,2	01.05.2018
+18	Ost	Matura	8,1	01.07.2018
+19	Süd	Lehre	7,9	01.07.2018
+20	West	Matura	10.5	01.06.2018
+21	Nord	Matura		01.11.2018
+22	Ost	Lehre	6,4	01.05.2018
+23	Nord	Lehre	10,4	01.04.2018
+24	Ost	Matura	24,3	01.02.2018
+		Summe	199,6
+
+Diese Daten müssen nicht vertraulich behandelt
+werden (es handelt sich um fiktive Daten).

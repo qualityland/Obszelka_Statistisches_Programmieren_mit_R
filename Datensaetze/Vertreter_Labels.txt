@@ -1,0 +1,12 @@
+Labels für die Vertreterdaten
+
+Variable Ausbildung
+  1 = Matura
+  2 = Lehre
+Variable Gebiet
+  1 = West
+  2 = Nord
+  3 = Ost
+  4 = Süd
+
+Ende der Labeldefinition
