@@ -1,0 +1,105 @@
+---
+title: "Kapitel 2: Los geht's"
+author: "Stefan Schmidt"
+date: "`r Sys.Date()`"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+
+## Quadratische Gleichung
+
+Ermittle die Loesung fuer die Quadratische Gleichung
+
+$$
+a x^2 + b x + c = 0
+$$
+
+Festlegen der Koeffizienten
+
+```{r}
+a <- 2
+b <- -5
+c <- 3
+
+```
+
+Ermittlung der Loesung
+
+```{r}
+x1 <- (-b + sqrt(b^2 - 4 * a * c)) / (2 * a)
+x2 <- (-b - sqrt(b^2 - 4 * a * c)) / (2 * a)
+```
+
+Anzeigen der Loesungen
+
+```{r}
+x1
+x2
+```
+
+
+## Goldener Schnitt
+
+Berechne das Verhaeltnis des Goldenen Schnitts
+
+$$
+\gamma = \frac{sqrt(5) - 1}{2}
+$$
+
+```{r}
+gamma <- (sqrt(5) - 1) / 2
+gamma
+```
+
+
+## Uebungen
+
+### 1. Body Mass Index
+
+Der BMI (Body Maß Index) ist ein Maß dafür, ob eine Person unter-, normal- oder übergewichtig ist und errechnet sich gemäß kg/m2 (Gewicht in kg durch Körpergröße in m zum Quadrat).
+
+Eine Person wiegt 65 kg und ist 1.76 m groß.
+
+a) Erstelle mit den Daten dieser Person die beiden Variablen kg und m.
+
+```{r}
+kg <- 65
+m <- 1.76
+```
+
+
+b) Berechne mit Hilfe von kg und m den BMI dieser Person und gebe das Ergebnis auf der R-Console aus.
+
+```{r}
+bmi <- kg / m^2
+bmi
+```
+
+c) Kommentiere dein Skript und speichere es unter einem geeigneten Datei- namen ab.
+
+### 2. Fibonaccifolge
+
+Wir betrachten die Fibonaccifolge $(a_n)_{n \geq 1}$ mit
+
+$$
+a_n =
+\begin{cases}
+    1 & \text{fuer n element {1, 2}}\\
+    a_{n-2} + a_{n-1} & \text{fuer n \geq 3}
+\end{cases}
+$$
+
+bla bla bla
+
+Eine geschlossene Formel fuer diese Folge lautet
+
+$$
+a_n = \frac{1}{\sqrt{5}} \Big( \Big( \frac{1 + \sqrt{5}}{2} \Big) ^n - \Big( \frac{1 - \sqrt{5}}{2} \Big) ^n \Big)
+$$
+
+Schreibe die Formel in der allgemeinen Form in R auf und werte sie für n = 8, n = 9 und n = 10 aus. Achte auf die korrekte Klammersetzung!
