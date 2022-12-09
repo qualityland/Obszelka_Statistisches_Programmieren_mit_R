@@ -50,7 +50,16 @@ stapel[-(3:5)]
 # vom der Sequenz mit Laenge stapel werden nur die Elemente mit TRUE ausgegeben
 (1:length(stapel))[stapel == 7]
 
+# 3.3 Recycling
 
+# Vollstaendiges Recycling - Elemente mit Index 1, 3 und 5 (jedes 2.)
+stapel[c(TRUE, FALSE)]
+
+# Unvolstaendiges Recycling - Index 1 und 5 (jedes 4.)
+stapel[c(TRUE, FALSE, FALSE, FALSE)]
+
+# Unvollstaengiges Recycling bei arithmetischen Operationen - WARNUNG
+stapel * c(1, 2, 3, 4)
 
 # 3.6 Ersetzen und Tauschen von Werten
 
